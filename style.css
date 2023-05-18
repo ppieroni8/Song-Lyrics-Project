@@ -1,3 +1,47 @@
-body {
-    background: rgb(89, 255, 0);
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap'); 
+
+/* Variables from Style Tile */
+:root{
+  --color1 : tan;
+  --color2 : tan;
+  --headingFont : 'Raleway', Bold cursive; --bodyFont : 'Raleway'  ;
+}
+
+h1 {
+  font-family: var(--headingFont);
+}
+
+p {
+  font-family: var(--bodyFont);
+}
+
+a:link, 
+a:visited {
+  color: var(--color1);
+  text-decoration: none;
+  
+  letter-spacing: 50px;
+}
+
+a:hover, 
+a:active {
+  border-bottom: 4px solid var(--color1);
+}
+
+p{
+  font-size: 1em; /*20px ~ 1.5em*/
+  line-height: 1em
+}
+
+main{
+  background: ;
+  border: 12px solid var(--color1);
+  
+  width: 50%
+  margin: 120px auto 0 auto;
+  padding: 24px;
+}
+
+audio {
+  width: 100%;
 }
